@@ -1,0 +1,166 @@
+body {
+    margin-top: 2rem;
+    padding: 0;
+    box-sizing: border-box;
+}
+.row {
+    margin: auto;
+}
+.left {
+    text-align: left;
+    margin-left: 8px;
+    margin-right: 8rem;
+}
+h4 {
+    color: red;
+    font-size: 20px;
+    font-weight: 200;
+}
+.carousel, .slide {
+    margin-top: 1rem;
+    margin: 0 8rem 0 5.5rem;
+}
+
+.contact-button {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+    background-color: blue;
+    text-decoration: none;
+}
+
+.contact-button a {
+    color: white;
+    text-decoration: none;
+}
+
+.contact-button a:hover {
+    color: white;
+}
+.component4, .component5, .component3, .component6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+    margin-top: 2rem;
+}
+.component3, .component5 {
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1rem;
+}
+.divright {
+    border: none;
+    background-color: #0000000f;
+    padding: 10px;
+}
+.divrightred {
+    border: none;
+    background-color: red;
+    padding: 10px;
+    color: white;
+}
+
+.comtext h3 {
+    font-size: 20px;
+}
+.com5text h2 {
+    font-weight: 300;
+}
+.com6text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.component7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    opacity: 0.7;
+    margin-top: 2rem;
+    padding: 5rem;
+}
+.footerIcon i {
+    color: white;
+    margin-right: 3rem;
+    font-size: 1.5rem;
+}
+.footername i {
+    color: white;
+}
+i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    font-size: 2rem;
+    margin-bottom: 3px;
+}
+.rise:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: grey 0px 0px 10px;
+    border-radius: 5px;
+    margin-right: auto;
+}
+
+
+/* Responsive for Mobile Devices */
+@media (max-width: 575.98px) {
+    .left {
+        margin-right: 0; /* Remove large margin on small screens */
+    }
+
+    .carousel, .slide {
+        margin: 0 1rem; /* Reduce carousel margin on small screens */
+    }
+
+    .col-5, .col-md-4, .col, .col-7, .col-4 {
+        width: 100%; /* Make columns full-width */
+        margin-bottom: 1rem; /* Add spacing between columns */
+    }
+
+    .contact-button {
+        width: 100%; /* Make button full-width */
+        padding: 10px 0; /* Adjust padding */
+    }
+
+    .component3, .component4, .component5, .component6, .component7 {
+        flex-direction: column; /* Stack components vertically */
+        padding: 1rem; /* Add padding */
+        width: 100%; /* Make components full-width */
+    }
+
+    .footerIcon i {
+        margin: 0.5rem; /* Adjust icon margin */
+    }
+
+    .footername p {
+        font-size: 1rem; /* Adjust footer text size */
+    }
+
+    .divright, .divrightred {
+        padding: 0.5rem; /* Adjust padding for smaller screens */
+    }
+
+    .comtext h3, .com5text h2 {
+        font-size: 1.5rem; /* Adjust heading size */
+    }
+}
+
